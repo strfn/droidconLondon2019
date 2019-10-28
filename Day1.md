@@ -59,6 +59,26 @@ Keugenerator.generate() to generate the key and put in the store.
 Check security key attestation in developer.android.com/training/articles
 
 # Designed an Intent-based API
+If start building libraries consider using intents ad a means of comunication between the library and the consumer. Intents are system wide and supported basically by any platfomr (native, hybrid, cross ....)
+
+# get over certs pinning.
+Cert pining is based on trust of the root certificate (root authorities can be hacked so don't trust)
+
+A lot of things to consider if doing cert pinning, for example how you refresh a cert if is leaked.
+## Certificate trasparency 
+certificate issuing logged publicly so can be verified
+check video the very best of certificate trasparancy network@scale2017
+
+based on monitoring certificate issues for your domain.
+client verification 
+in ios ATS requirescertificatetrasparency
+Android: babylon opensourced certificate trasparency library 
+https://www.certificate-transparency.org
+
+# Keynote, get happy get known get paid
+
+
+
 
 
 
